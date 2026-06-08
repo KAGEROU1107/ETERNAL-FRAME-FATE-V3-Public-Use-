@@ -1,0 +1,10 @@
+project:
+  name: effv3-public-reference
+limits:
+  max_units: 4000
+route:
+  strategy: balanced
+rules:
+  profile: standard
+records:
+  enabled: true
