@@ -1,0 +1,8 @@
+name: dev
+profile: open
+limits:
+  max_units: 8000
+records:
+  mode: console
+route:
+  preference: balanced
