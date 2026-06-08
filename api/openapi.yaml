@@ -1,0 +1,33 @@
+openapi: 3.0.3
+info:
+  title: EFFV3 Public Interface
+  version: 0.1.0
+paths:
+  /review:
+    post:
+      summary: Review a request using public contract shape
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                input:
+                  type: string
+                context:
+                  type: object
+      responses:
+        '200':
+          description: Review result
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  allowed:
+                    type: boolean
+                  reason:
+                    type: string
+                  route:
+                    type: string
