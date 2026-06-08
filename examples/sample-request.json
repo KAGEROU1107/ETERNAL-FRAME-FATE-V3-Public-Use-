@@ -1,0 +1,7 @@
+{
+  "input": "summarize this document",
+  "context": {
+    "source": "example",
+    "mode": "public-reference"
+  }
+}
