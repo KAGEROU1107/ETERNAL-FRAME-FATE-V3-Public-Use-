@@ -1,0 +1,8 @@
+name: cost-saver
+profile: budget
+limits:
+  max_units: 1000
+records:
+  mode: summary
+route:
+  preference: economical
