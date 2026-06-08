@@ -1,0 +1,8 @@
+name: strict
+profile: careful
+limits:
+  max_units: 2000
+records:
+  mode: required
+route:
+  preference: stable
