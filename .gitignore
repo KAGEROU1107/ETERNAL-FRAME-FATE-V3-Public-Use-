@@ -1,0 +1,16 @@
+.env
+*.key
+*.pem
+*.secret
+__pycache__/
+*.pyc
+.DS_Store
+node_modules/
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+coverage/
+ETERNAL-FRAME-FATE-V3-BLUEPRINT/
