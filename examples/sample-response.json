@@ -1,0 +1,5 @@
+{
+  "allowed": false,
+  "reason": "public skeleton stops before live execution",
+  "route": "placeholder"
+}
