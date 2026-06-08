@@ -1,0 +1,18 @@
+type: object
+required:
+  - project
+  - limits
+  - route
+  - rules
+  - records
+properties:
+  project:
+    type: object
+  limits:
+    type: object
+  route:
+    type: object
+  rules:
+    type: object
+  records:
+    type: object
